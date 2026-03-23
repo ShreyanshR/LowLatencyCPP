@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/Concurrency_ch2.dir/Concurrency/ch2.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/Concurrency/ch2.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/Concurrency/ch2.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_ch2.dir/Concurrency/ch2.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/Concurrency_ch3.dir/Concurrency/ch3.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/Concurrency/ch3.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/Concurrency/ch3.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_ch3.dir/Concurrency/ch3.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/Concurrency_shared_mutex.dir/Concurrency/shared_mutex.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/Concurrency/shared_mutex.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/Concurrency/shared_mutex.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_shared_mutex.dir/Concurrency/shared_mutex.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/GetCracked_LockedUp.dir/GetCracked/LockedUp.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/GetCracked/LockedUp.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/GetCracked/LockedUp.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_LockedUp.dir/GetCracked/LockedUp.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/GetCracked_main.dir/GetCracked/main.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/GetCracked/main.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/GetCracked/main.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_main.dir/GetCracked/main.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/GetCracked_stack.dir/GetCracked/stack.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/GetCracked/stack.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/GetCracked/stack.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_stack.dir/GetCracked/stack.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/GetCracked_vector.dir/GetCracked/vector.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/GetCracked/vector.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/GetCracked/vector.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_vector.dir/GetCracked/vector.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/MemoryManagment_chapter1.dir/MemoryManagment/chapter1.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter1.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter1.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_chapter1.dir/MemoryManagment/chapter1.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/MemoryManagment_chapter2.dir/MemoryManagment/chapter2.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter2.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter2.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_chapter2.dir/MemoryManagment/chapter2.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/MemoryManagment_chapter4.dir/MemoryManagment/chapter4.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter4.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter4.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_chapter4.dir/MemoryManagment/chapter4.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/MemoryManagment_chapter5.dir/MemoryManagment/chapter5.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter5.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/MemoryManagment/chapter5.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_chapter5.dir/MemoryManagment/chapter5.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/MemoryManagment_naive_string.dir/MemoryManagment/naive_string.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/MemoryManagment/naive_string.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/MemoryManagment/naive_string.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_naive_string.dir/MemoryManagment/naive_string.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/MemoryManagment_unique_ptr.dir/MemoryManagment/unique_ptr.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/MemoryManagment/unique_ptr.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/MemoryManagment/unique_ptr.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_unique_ptr.dir/MemoryManagment/unique_ptr.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/main.dir/main.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/main.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/main.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/wc_tool_main.dir/wc_tool/main.cpp.o -c \"/Users/shrey/Desktop/LowLevelProjects/wc tool/main.cpp\"",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/wc tool/main.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/wc_tool_main.dir/wc_tool/main.cpp.o"
+}
+]

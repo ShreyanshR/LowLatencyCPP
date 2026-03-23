@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LowLevelProjects",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrency_ch2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrency_ch2-Debug-888cdc6115a24d8b2566.json",
+					"name" : "Concurrency_ch2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrency_ch3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrency_ch3-Debug-005a781bf775c6001151.json",
+					"name" : "Concurrency_ch3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Concurrency_shared_mutex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrency_shared_mutex-Debug-1ed9dbccddbd3d5fbf49.json",
+					"name" : "Concurrency_shared_mutex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GetCracked_LockedUp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GetCracked_LockedUp-Debug-da9551f3f6b7adc23cf8.json",
+					"name" : "GetCracked_LockedUp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GetCracked_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GetCracked_main-Debug-03c8d3c9c1a5e8ed3908.json",
+					"name" : "GetCracked_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GetCracked_stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GetCracked_stack-Debug-07bada119c8453416acf.json",
+					"name" : "GetCracked_stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GetCracked_vector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GetCracked_vector-Debug-1c02e6c744c7bbbea745.json",
+					"name" : "GetCracked_vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MemoryManagment_chapter1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MemoryManagment_chapter1-Debug-3bcdb72454f4f1f09447.json",
+					"name" : "MemoryManagment_chapter1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MemoryManagment_chapter2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MemoryManagment_chapter2-Debug-64f608fd5304d8f32350.json",
+					"name" : "MemoryManagment_chapter2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MemoryManagment_chapter4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MemoryManagment_chapter4-Debug-00ebd3ebc7579a421a14.json",
+					"name" : "MemoryManagment_chapter4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MemoryManagment_chapter5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MemoryManagment_chapter5-Debug-56adce278fc1c5d1f1bf.json",
+					"name" : "MemoryManagment_chapter5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MemoryManagment_naive_string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MemoryManagment_naive_string-Debug-2dd5f1ed5243fd34e83a.json",
+					"name" : "MemoryManagment_naive_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MemoryManagment_unique_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MemoryManagment_unique_ptr-Debug-ae7ca1295180d3d92c85.json",
+					"name" : "MemoryManagment_unique_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-a0042f6558f92825d7bc.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wc_tool_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wc_tool_main-Debug-9da110a02586bafeb4c7.json",
+					"name" : "wc_tool_main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+		"source" : "/Users/shrey/Desktop/LowLevelProjects"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

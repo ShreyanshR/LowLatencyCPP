@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/MemoryManagment_naive_string.dir/MemoryManagment/naive_string.cpp.o -o MemoryManagment_naive_string
