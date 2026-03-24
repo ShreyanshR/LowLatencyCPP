@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "main"
+			"path" : "Concurrency_ch3"
 		}
 	],
 	"backtrace" : 1,
@@ -29,11 +29,6 @@
 			}
 		]
 	},
-	"codemodelVersion" : 
-	{
-		"major" : 2,
-		"minor" : 9
-	},
 	"compileGroups" : 
 	[
 		{
@@ -58,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "main::@6890427a1f51a3e7e1df",
+	"id" : "Concurrency_ch3::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "main",
-	"nameOnDisk" : "main",
+	"name" : "Concurrency_ch3",
+	"nameOnDisk" : "Concurrency_ch3",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "Concurrency/ch3.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

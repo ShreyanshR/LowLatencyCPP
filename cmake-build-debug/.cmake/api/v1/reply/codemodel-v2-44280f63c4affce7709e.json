@@ -2,12 +2,11 @@
 	"configurations" : 
 	[
 		{
-			"abstractTargets" : [],
 			"directories" : 
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -30,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -59,7 +59,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -68,105 +69,112 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Concurrency_ch2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Concurrency_ch2-Debug-888cdc6115a24d8b2566.json",
+					"jsonFile" : "target-Concurrency_ch2-Debug-db2948e004360f961ab2.json",
 					"name" : "Concurrency_ch2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Concurrency_ch3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Concurrency_ch3-Debug-005a781bf775c6001151.json",
+					"jsonFile" : "target-Concurrency_ch3-Debug-40de741f4897c86d046e.json",
 					"name" : "Concurrency_ch3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Concurrency_safe_queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrency_safe_queue-Debug-ffd794bdc71a2c5c8fdd.json",
+					"name" : "Concurrency_safe_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Concurrency_shared_mutex::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Concurrency_shared_mutex-Debug-1ed9dbccddbd3d5fbf49.json",
+					"jsonFile" : "target-Concurrency_shared_mutex-Debug-cb8b8ebcb5d2f632ac4e.json",
 					"name" : "Concurrency_shared_mutex",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Concurrency_stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Concurrency_stack-Debug-45ecb8d9a016d9d47d1b.json",
+					"name" : "Concurrency_stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "GetCracked_LockedUp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GetCracked_LockedUp-Debug-da9551f3f6b7adc23cf8.json",
+					"jsonFile" : "target-GetCracked_LockedUp-Debug-fad7137900f99446f075.json",
 					"name" : "GetCracked_LockedUp",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "GetCracked_main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GetCracked_main-Debug-03c8d3c9c1a5e8ed3908.json",
+					"jsonFile" : "target-GetCracked_main-Debug-ebc98654caaadcca6082.json",
 					"name" : "GetCracked_main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "GetCracked_stack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GetCracked_stack-Debug-07bada119c8453416acf.json",
-					"name" : "GetCracked_stack",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "GetCracked_vector::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GetCracked_vector-Debug-1c02e6c744c7bbbea745.json",
+					"jsonFile" : "target-GetCracked_vector-Debug-45ab232c099ce0190e23.json",
 					"name" : "GetCracked_vector",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoryManagment_chapter1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoryManagment_chapter1-Debug-3bcdb72454f4f1f09447.json",
+					"jsonFile" : "target-MemoryManagment_chapter1-Debug-a5c2c6a0be2a1c053ca7.json",
 					"name" : "MemoryManagment_chapter1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoryManagment_chapter2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoryManagment_chapter2-Debug-64f608fd5304d8f32350.json",
+					"jsonFile" : "target-MemoryManagment_chapter2-Debug-531303422bc787cef142.json",
 					"name" : "MemoryManagment_chapter2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoryManagment_chapter4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoryManagment_chapter4-Debug-00ebd3ebc7579a421a14.json",
+					"jsonFile" : "target-MemoryManagment_chapter4-Debug-096b5fb700ecdc5782be.json",
 					"name" : "MemoryManagment_chapter4",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoryManagment_chapter5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoryManagment_chapter5-Debug-56adce278fc1c5d1f1bf.json",
+					"jsonFile" : "target-MemoryManagment_chapter5-Debug-b9c94b56ae74ed811524.json",
 					"name" : "MemoryManagment_chapter5",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoryManagment_naive_string::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoryManagment_naive_string-Debug-2dd5f1ed5243fd34e83a.json",
+					"jsonFile" : "target-MemoryManagment_naive_string-Debug-bb6ce04182d530521041.json",
 					"name" : "MemoryManagment_naive_string",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoryManagment_unique_ptr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoryManagment_unique_ptr-Debug-ae7ca1295180d3d92c85.json",
+					"jsonFile" : "target-MemoryManagment_unique_ptr-Debug-a2c283d0932b82fd9599.json",
 					"name" : "MemoryManagment_unique_ptr",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-a0042f6558f92825d7bc.json",
+					"jsonFile" : "target-main-Debug-4ab829da581c6b4190bd.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "wc_tool_main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-wc_tool_main-Debug-9da110a02586bafeb4c7.json",
+					"jsonFile" : "target-wc_tool_main-Debug-bb57616549b481a9af9e.json",
 					"name" : "wc_tool_main",
 					"projectIndex" : 0
 				}
@@ -182,6 +190,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 9
+		"minor" : 8
 	}
 }

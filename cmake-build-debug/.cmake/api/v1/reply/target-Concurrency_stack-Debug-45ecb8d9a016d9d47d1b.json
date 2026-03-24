@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Concurrency_shared_mutex"
+			"path" : "Concurrency_stack"
 		}
 	],
 	"backtrace" : 1,
@@ -29,11 +29,6 @@
 			}
 		]
 	},
-	"codemodelVersion" : 
-	{
-		"major" : 2,
-		"minor" : 9
-	},
 	"compileGroups" : 
 	[
 		{
@@ -58,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "Concurrency_shared_mutex::@6890427a1f51a3e7e1df",
+	"id" : "Concurrency_stack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Concurrency_shared_mutex",
-	"nameOnDisk" : "Concurrency_shared_mutex",
+	"name" : "Concurrency_stack",
+	"nameOnDisk" : "Concurrency_stack",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Concurrency/shared_mutex.cpp",
+			"path" : "Concurrency/stack.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

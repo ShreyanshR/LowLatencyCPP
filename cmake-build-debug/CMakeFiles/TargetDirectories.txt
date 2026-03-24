@@ -1,9 +1,10 @@
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_ch2.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_ch3.dir
+/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_safe_queue.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_shared_mutex.dir
+/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_stack.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_LockedUp.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_main.dir
-/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_stack.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_vector.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_chapter1.dir
 /Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/MemoryManagment_chapter2.dir

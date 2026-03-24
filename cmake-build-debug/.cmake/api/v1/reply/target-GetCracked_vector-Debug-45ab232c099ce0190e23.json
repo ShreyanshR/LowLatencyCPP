@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MemoryManagment_chapter2"
+			"path" : "GetCracked_vector"
 		}
 	],
 	"backtrace" : 1,
@@ -29,11 +29,6 @@
 			}
 		]
 	},
-	"codemodelVersion" : 
-	{
-		"major" : 2,
-		"minor" : 9
-	},
 	"compileGroups" : 
 	[
 		{
@@ -58,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "MemoryManagment_chapter2::@6890427a1f51a3e7e1df",
+	"id" : "GetCracked_vector::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "MemoryManagment_chapter2",
-	"nameOnDisk" : "MemoryManagment_chapter2",
+	"name" : "GetCracked_vector",
+	"nameOnDisk" : "GetCracked_vector",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MemoryManagment/chapter2.cpp",
+			"path" : "GetCracked/vector.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MemoryManagment_naive_string"
+			"path" : "Concurrency_safe_queue"
 		}
 	],
 	"backtrace" : 1,
@@ -29,11 +29,6 @@
 			}
 		]
 	},
-	"codemodelVersion" : 
-	{
-		"major" : 2,
-		"minor" : 9
-	},
 	"compileGroups" : 
 	[
 		{
@@ -58,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "MemoryManagment_naive_string::@6890427a1f51a3e7e1df",
+	"id" : "Concurrency_safe_queue::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "MemoryManagment_naive_string",
-	"nameOnDisk" : "MemoryManagment_naive_string",
+	"name" : "Concurrency_safe_queue",
+	"nameOnDisk" : "Concurrency_safe_queue",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MemoryManagment/naive_string.cpp",
+			"path" : "Concurrency/safe_queue.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

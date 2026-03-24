@@ -13,9 +13,21 @@
 },
 {
   "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/Concurrency_safe_queue.dir/Concurrency/safe_queue.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/Concurrency/safe_queue.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/Concurrency/safe_queue.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_safe_queue.dir/Concurrency/safe_queue.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
   "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/Concurrency_shared_mutex.dir/Concurrency/shared_mutex.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/Concurrency/shared_mutex.cpp",
   "file": "/Users/shrey/Desktop/LowLevelProjects/Concurrency/shared_mutex.cpp",
   "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_shared_mutex.dir/Concurrency/shared_mutex.cpp.o"
+},
+{
+  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/Concurrency_stack.dir/Concurrency/stack.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/Concurrency/stack.cpp",
+  "file": "/Users/shrey/Desktop/LowLevelProjects/Concurrency/stack.cpp",
+  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/Concurrency_stack.dir/Concurrency/stack.cpp.o"
 },
 {
   "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
@@ -28,12 +40,6 @@
   "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/GetCracked_main.dir/GetCracked/main.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/GetCracked/main.cpp",
   "file": "/Users/shrey/Desktop/LowLevelProjects/GetCracked/main.cpp",
   "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_main.dir/GetCracked/main.cpp.o"
-},
-{
-  "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=c++2b -arch arm64 -fcolor-diagnostics -o CMakeFiles/GetCracked_stack.dir/GetCracked/stack.cpp.o -c /Users/shrey/Desktop/LowLevelProjects/GetCracked/stack.cpp",
-  "file": "/Users/shrey/Desktop/LowLevelProjects/GetCracked/stack.cpp",
-  "output": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug/CMakeFiles/GetCracked_stack.dir/GetCracked/stack.cpp.o"
 },
 {
   "directory": "/Users/shrey/Desktop/LowLevelProjects/cmake-build-debug",

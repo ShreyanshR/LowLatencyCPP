@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "GetCracked_LockedUp"
+			"path" : "MemoryManagment_unique_ptr"
 		}
 	],
 	"backtrace" : 1,
@@ -29,11 +29,6 @@
 			}
 		]
 	},
-	"codemodelVersion" : 
-	{
-		"major" : 2,
-		"minor" : 9
-	},
 	"compileGroups" : 
 	[
 		{
@@ -58,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "GetCracked_LockedUp::@6890427a1f51a3e7e1df",
+	"id" : "MemoryManagment_unique_ptr::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GetCracked_LockedUp",
-	"nameOnDisk" : "GetCracked_LockedUp",
+	"name" : "MemoryManagment_unique_ptr",
+	"nameOnDisk" : "MemoryManagment_unique_ptr",
 	"paths" : 
 	{
 		"build" : ".",
@@ -96,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "GetCracked/LockedUp.cpp",
+			"path" : "MemoryManagment/unique_ptr.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
