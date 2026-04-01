@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Concurrency_shared_mutex.dir/Concurrency/shared_mutex.cpp.o -o Concurrency_shared_mutex

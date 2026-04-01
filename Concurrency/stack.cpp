@@ -74,7 +74,7 @@ int main() {
 
 
 	std::thread t1([&]() {
-		for (int i=0; i < 10; i++) {
+			for (int i=0; i < 10; i++) {
 			es.push(Explosive{i});
 			std::println("Pushed id: {}", i);
 		}

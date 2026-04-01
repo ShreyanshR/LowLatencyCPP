@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/shrey/Desktop/LowLevelProjects/build/cmake_install.cmake",
-		"/Users/shrey/Desktop/LowLevelProjects/build/GetCracked/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

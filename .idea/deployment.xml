@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ubuntu (a70d1247-0cd4-4842-b616-54a4abf6a982)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Users/shrey/Desktop/LowLevelProjects" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build/release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/Linux/release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/Linux/debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

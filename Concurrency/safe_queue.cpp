@@ -92,7 +92,7 @@ int main() {
 
 	std::thread t2([&]() {
 		for (int i = 0; i < 10; i++) {
-			auto val = ns.try_pop();
+			auto val = ns.wait_and_pop();
 			if (val) {
 				std::println("Popped: {}", val->name);
 			} else {
