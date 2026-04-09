@@ -14,7 +14,7 @@ list(APPEND PROJECT_CPP ${ROOT_CPP})
 
 foreach(source_dir IN ITEMS Concurrency GetCracked MemoryManagment OS "wc tool")
     if(EXISTS "${CMAKE_SOURCE_DIR}/${source_dir}")
-        file(GLOB DIR_CPP CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/${source_dir}/*.cpp")
+        file(GLOB_RECURSE DIR_CPP CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/${source_dir}/*.cpp")
         list(APPEND PROJECT_CPP ${DIR_CPP})
     endif()
 endforeach()
