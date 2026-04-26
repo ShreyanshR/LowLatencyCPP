@@ -6,6 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+# Explicitly add memory_order_demo
+add_executable(memory_order_demo Concurrency/memory_order_demo.cpp)
+
 # Auto-create one executable for each project .cpp that defines main().
 set(PROJECT_CPP "")
 
@@ -29,8 +32,8 @@ foreach(src IN LISTS PROJECT_CPP)
     endif()
 
     file(READ "${src}" SRC_CONTENT)
-    string(REGEX REPLACE "/\\*([^*]|\\*+[^*/]|[\r\n])*\\*+/" "" SRC_NO_BLOCK_COMMENTS "${SRC_CONTENT}")
-    string(REGEX REPLACE "//[^\r\n]*" "" SRC_NO_COMMENTS "${SRC_NO_BLOCK_COMMENTS}")
+    string(REGEX REPLACE "/\\*([^*]|\\*+[^*/]|[\\r\\n])*\\*+/" "" SRC_NO_BLOCK_COMMENTS "${SRC_CONTENT}")
+    string(REGEX REPLACE "//[^\\r\\n]*" "" SRC_NO_COMMENTS "${SRC_NO_BLOCK_COMMENTS}")
     string(REGEX MATCH "int[ \t\r\n]+main[ \t\r\n]*\\(" HAS_MAIN "${SRC_NO_COMMENTS}")
     if(NOT HAS_MAIN)
         continue()
