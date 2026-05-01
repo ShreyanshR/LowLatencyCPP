@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 #include <print>
+#include <thread>
 
 struct ListNode {
 	int val;
@@ -24,6 +25,9 @@ int main() {
 	}
 
 	std::println("After Scope n1->val = {}", n1->val);
+
+	unsigned int  cores = std::thread::hardware_concurrency();
+	std::cout << "Cores: " << cores << "\n";
 
 	delete n1; delete n2; delete n3;
 }
