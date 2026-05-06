@@ -9,6 +9,7 @@
 #include <pthread.h>
 #endif
 
+static constexpr int BATCH_SIZE = 16;
 
 struct ringBuffer {
 	std::vector<int> data_;
@@ -33,6 +34,47 @@ struct ringBuffer {
 	}
 
 	bool pop(int& val) {
+		auto const readIdx = readIdx_.load(std::memory_order_relaxed);
+		if (readIdx == writeIdx_.load(std::memory_order_acquire)) {
+			return false;
+		}
+		val = data_[readIdx];
+		auto nextReadIdx = readIdx + 1;
+		if (nextReadIdx == data_.size()) {
+			nextReadIdx = 0;
+		}
+		readIdx_.store(nextReadIdx, std::memory_order_release);
+		return true;
+	}
+};
+
+struct alignas(64) Batch {
+	int vals[BATCH_SIZE];
+};
+
+struct batchRingBuffer {
+	std::vector<Batch> data_;
+	alignas(64) std::atomic<size_t> readIdx_{0};
+	alignas(64) std::atomic<size_t> writeIdx_{0};
+
+	batchRingBuffer(size_t capacity) : data_(capacity) {}
+
+	bool push(const Batch& val) {
+		auto const writeIdx = writeIdx_.load(std::memory_order_relaxed);
+		auto nextWriteIdx = writeIdx + 1;
+
+		if (nextWriteIdx == data_.size()) {
+			nextWriteIdx = 0;
+		}
+		if (nextWriteIdx == readIdx_.load(std::memory_order_acquire)) {
+			return false;
+		}
+		data_[writeIdx] = val;
+		writeIdx_.store(nextWriteIdx, std::memory_order_release);
+		return true;
+	}
+
+	bool pop(Batch& val) {
 		auto const readIdx = readIdx_.load(std::memory_order_relaxed);
 		if (readIdx == writeIdx_.load(std::memory_order_acquire)) {
 			return false;
@@ -87,7 +129,42 @@ template <typename T> void bench(int cpu1, int cpu2) {
 	auto stop = std::chrono::steady_clock::now();
 	t.join();
 
-	std::cout << iters * 1000000000LL / std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start).count() << " ops/s" << std::endl;
+	std::cout << "unbatched: " << iters * 1000000000LL / std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start).count() << " ops/s\n";
+}
+
+void benchBatch(int cpu1, int cpu2) {
+	const size_t queueSize = 100000;
+	const int64_t iters     = 100000000;
+	const int64_t batchIters = iters / BATCH_SIZE;
+	batchRingBuffer q(queueSize);
+
+	auto t = std::thread([&] {
+		pinThread(cpu1);
+		for (int64_t i = 0; i < batchIters; ++i) {
+			Batch b;
+			while (!q.pop(b));
+			if (b.vals[0] != i * BATCH_SIZE) {
+				throw std::runtime_error("value mismatch");
+			}
+		}
+	});
+
+	pinThread(cpu2);
+
+	auto start = std::chrono::steady_clock::now();
+	for (int64_t i = 0; i < batchIters; ++i) {
+		Batch b;
+		for (int j = 0; j < BATCH_SIZE; ++j) {
+			b.vals[j] = i * BATCH_SIZE + j;
+		}
+		while (!q.push(b));
+	}
+	while (q.readIdx_.load(std::memory_order_relaxed) != q.writeIdx_.load(std::memory_order_relaxed));
+	auto stop = std::chrono::steady_clock::now();
+	t.join();
+
+	// report in terms of individual ints delivered
+	std::cout << "batched:   " << iters * 1000000000LL / std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start).count() << " ops/s\n";
 }
 
 int main(int argc, char *argv[]) {
@@ -100,6 +177,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	bench<ringBuffer>(cpu1, cpu2);
+	benchBatch(cpu1, cpu2);
 
 	return 0;
 }
