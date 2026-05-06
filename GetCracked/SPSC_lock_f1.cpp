@@ -176,8 +176,11 @@ int main(int argc, char *argv[]) {
 		cpu2 = std::stoi(argv[2]);
 	}
 
+#ifdef UNBATCHED_ONLY
 	bench<ringBuffer>(cpu1, cpu2);
+#else
 	benchBatch(cpu1, cpu2);
+#endif
 
 	return 0;
 }
