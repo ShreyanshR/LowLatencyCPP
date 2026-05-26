@@ -9,6 +9,7 @@ template<typename T>
 class thread_safe_queue {
 private:
 	mutable std::mutex mtx;
+	std::atomic_bool shutdown{false};
 	std::queue<T> data_queue;
 	std::condition_variable data_cond;
 
@@ -43,7 +44,7 @@ public:
 
 	void wait_and_pop(T& value) {
 		std::unique_lock<std::mutex> lk(mtx);
-		data_cond.wait(lk, [this]{return !data_queue.empty();});
+		data_cond.wait(lk, [this]{return !data_queue.empty() || shutdown;});
 		value = std::move(data_queue.front());
 		data_queue.pop();
 	}
@@ -54,6 +55,11 @@ public:
 		std::shared_ptr<T> res(std::make_shared<T>(data_queue.front()));
 		data_queue.pop();
 		return res;
+	}
+
+	void shutdown_queue() {
+		shutdown = true;
+		data_cond.notify_all();
 	}
 
 	bool empty() const {
