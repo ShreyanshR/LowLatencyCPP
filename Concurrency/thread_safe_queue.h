@@ -42,11 +42,13 @@ public:
 		return res;
 	}
 
-	void wait_and_pop(T& value) {
+	bool wait_and_pop(T& value) {
 		std::unique_lock<std::mutex> lk(mtx);
 		data_cond.wait(lk, [this]{return !data_queue.empty() || shutdown;});
+		if (data_queue.empty()) return false;
 		value = std::move(data_queue.front());
 		data_queue.pop();
+		return true;
 	}
 
 	std::shared_ptr<T> wait_and_pop() {
