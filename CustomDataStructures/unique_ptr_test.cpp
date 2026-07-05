@@ -87,7 +87,7 @@ TEST(UniquePtrTest, ResetMethod) {
   {
     UniquePtr<TestObject> ptr(first);
     ptr.reset(new TestObject); //reset with new object
-    EXPECT_TRUE(TestObject::destroyed); //firt object destroyed
+    EXPECT_TRUE(TestObject::destroyed); //first object destroyed
     TestObject::destroyed = false;
   }
   EXPECT_TRUE(TestObject::destroyed);
