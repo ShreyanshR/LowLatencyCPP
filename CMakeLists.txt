@@ -29,7 +29,7 @@ set(PROJECT_CPP "")
 file(GLOB ROOT_CPP CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/*.cpp")
 list(APPEND PROJECT_CPP ${ROOT_CPP})
 
-foreach(source_dir IN ITEMS Concurrency GetCracked LeetCode MemoryManagment OS "wc tool")
+foreach(source_dir IN ITEMS Concurrency CustomDataStructures GetCracked LeetCode MemoryManagment OS "wc tool")
     if(EXISTS "${CMAKE_SOURCE_DIR}/${source_dir}")
         file(GLOB_RECURSE DIR_CPP CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/${source_dir}/*.cpp")
         list(APPEND PROJECT_CPP ${DIR_CPP})
